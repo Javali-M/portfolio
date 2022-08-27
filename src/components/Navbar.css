@@ -1,0 +1,55 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+.h2{
+    color: pink;
+    display: inline-block;
+}
+.img1{
+    height: 70px;
+    width: 70px;
+    display: flex;
+}
+.menu{
+    display: flex;
+}
+.menu li{
+    padding: 0 1rem;
+}
+.menu li a{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.hamburger{
+    display:none;
+}
+@media screen and (max-width:1040px) {
+    .menu{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+        background: black;
+        position: absolute;
+        top:0;
+        left:-100%;
+        z-index:-3;
+        transition: 0.25s;
+    }
+    .menu.active{
+        left:0;
+    }
+    .menu li{
+        padding: 1rem 0;
+    }
+    .menu li a{
+        font-size: 2rem;
+    }
+    .hamburger{
+        display:initial;
+    }
+}
