@@ -1,32 +1,47 @@
-.hero{
+/* .hero{
     height: 100%;
     width: 100%;
     position: relative;
     margin-right: 0;
-}
+} */
 .hero .content{
+    justify-content: space-between;
     position: absolute;
     transform: translate(-50%,-50%);
+
     top: 50%;
     left: 40%;
-    /* bottom: 80%; */
+    right: 0;
     text-align: left;
     background: transparent;
 }
 .hero .content p{
     background: transparent;
+    line-height: 1.5rem;
 }
 .name{
     font-weight: bold;
     color: aqua;
     font-size:xx-large;
+    display: inline-block;
 }
 .mask{
-    height:100vh;
+    /* height:100vh; */
     width:100%;
-    background-position: right;
+    /* background-position: right; */
     position: relative;
-
+    /* display: inline-box; */
+    /* float: right; */
+}
+.me{
+    float: right;
+    display: inline-block;
+    height: 10px;
+    width:30%;
+    position: relative;
+    /* padding-left: 200px; */
+    /* margin-left: 70px;
+    margin-right: 0; */
 }
 .img{
     width:100%;
@@ -34,6 +49,8 @@
     background-size: cover;
     background-position: center;
     object-fit: cover;
+    top: 0;
+    position: relative;
 }
 .mask::after{
     content:"";
@@ -43,6 +60,6 @@
     top: 0;
     left: 0;
     background-color: black;
-    opacity: 0.5;
+    opacity: 0.81;
 }
 

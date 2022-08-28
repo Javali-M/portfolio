@@ -1,6 +1,7 @@
 import React from 'react'
 import './Hero.css';
-import img from '../assets/bg.jpg';
+import img from '../assets/dk.jpeg';
+import me from '../assets/gp.png';
 const Hero = () => {
   return (
     <div className='hero'>
@@ -8,8 +9,13 @@ const Hero = () => {
             <img src={img} className='img' ></img>
         </div>
         <div className='content'>
+        
             <p> Hey there! I'm</p>
             <p className='name'>Javali Murari.</p>
+            {/* <div className='me'>
+            <img src={me}  ></img> 
+            </div> */}
+           
             <br/>
             {/* <h1>A full stack developer.</h1> */}
             <br/>
