@@ -1,20 +1,26 @@
 import React from 'react'
+import './Tech.css';
 // import Section from './primitives/section'
 // import { Heading, Box, Flex, Text } from '@chakra-ui/react'
-import Icons from './Icons';
+import Icon from './Icon';
 // import ReactTooltip from "react-tooltip";
 // import { useTheme } from "@chakra-ui/react"
 
 // import { useColorMode } from '@chakra-ui/color-mode'
+
 const Tech=()=>{
-return (
-    <div className="techs">
-      {Icons.map((s) => (
-        <div className="image-type">{s}</div>
-      ))}
-    </div>
+  return(
+  <div className='third'>
+  <h2 >Tech I know</h2>
+  <br/>
+  <div className='tec'>
+  <Icon/>
+  </div>
+  </div>
   );
-      }
+}
+
+
 // const Technologies = () => {
 //     // const theme = useTheme()
 //     // const colors = theme.colors

@@ -10,7 +10,7 @@ const Navbar = () => {
     <div className="header">
     <Link to="/">
     <img className='img1'src={img1}/>
-    <h2>Javali Murari</h2>
+    <h2 className="h2">Javali Murari</h2>
     </Link>
     <ul className={click? "menu active":"menu"}>
         <li>

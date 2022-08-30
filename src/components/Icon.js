@@ -1,4 +1,5 @@
 import React from 'react'
+import './Icon.css';
 import {
     SiJavascript,
     SiCss3,
@@ -58,7 +59,7 @@ import {
 
 const icons = [{
     name: 'React',
-    icon: SiReact,
+    icon: <SiReact />,
     config: {
         color: '#61daf4',
         size: '65px'
@@ -68,48 +69,8 @@ const icons = [{
 
 },
 {
-    name: 'Redux',
-    icon: SiRedux,
-    config: {
-        color: '#764abc',
-        size: '65px'
-    },
-    description: 'A Predictable State Container for JS Apps',
-    url: 'https://redux.js.org/'
-},
-{
-    name: 'Next.js',
-    icon: SiNextdotjs,
-    config: {
-        color: '#ffffff',
-        size: '65px'
-    },
-    description: 'Next.js is an open-source web development framework built on top of Node.js enabling React based web applications functionalities such as server-side rendering and generating static websites.',
-    url: 'https://nextjs.org/'
-},
-{
-    name: 'Graphql',
-    icon: SiGraphql,
-    config: {
-        color: '#e535ab',
-        size: '65px'
-    },
-    description: 'GraphQL is an open-source data query and manipulation language for APIs, and a runtime for fulfilling queries with existing data.',
-    url: 'https://graphql.org/'
-},
-{
-    name: 'Apollo',
-    icon: SiApollographql,
-    config: {
-        color: '#ffffff',
-        size: '65px'
-    },
-    description: 'Apollo tracks your GraphQL schemas in a registry to create a central source of truth for everything in your graph.',
-    url: 'https://www.apollographql.com/'
-},
-{
     name: 'Javascript',
-    icon: SiJavascript,
+    icon: <SiJavascript/>,
     config: {
         color: '#F0DB4F',
         size: '65px'
@@ -119,7 +80,7 @@ const icons = [{
 },
 {
     name: 'C++',
-    icon: SiCplusplus,
+    icon: <SiCplusplus/>,
     config: {
         color: '#466fb9',
         size: '65px'
@@ -129,7 +90,7 @@ const icons = [{
 },
 {
     name: 'Python',
-    icon: SiPython,
+    icon: <SiPython/>,
     config: {
         color: '#4B8BBE',
         size: '65px'
@@ -137,39 +98,19 @@ const icons = [{
     description: 'Python is a high-level, interpreted, general-purpose programming language.',
     url: 'https://www.python.org/'
 },
-// {
-//     name: 'Solidity',
-//     icon: SiSolidity,
-//     config: {
-//         color: '#ffffff',
-//         size: '65px'
-//     },
-//     description: 'Solidity is an object-oriented, high-level language for implementing smart contracts.',
-//     url: 'https://docs.soliditylang.org/en/v0.8.15/'
-// },
-// {
-//     name: 'Go',
-//     icon: SiGo,
-//     config: {
-//         color: '#29BEB0',
-//         size: '65px'
-//     },
-//     description: 'Go is an open source programming language supported by Google',
-//     url: 'https://go.dev/'
-// },
-// {
-//     name: 'Typescript',
-//     icon: SiTypescript,
-//     config: {
-//         color: '#007acc',
-//         size: '65px'
-//     },
-//     description: 'TypeScript is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale.',
-//     url: 'https://www.typescriptlang.org/'
-// },
+{
+    name: 'Typescript',
+    icon: <SiTypescript/>,
+    config: {
+        color: '#007acc',
+        size: '65px'
+    },
+    description: 'TypeScript is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale.',
+    url: 'https://www.typescriptlang.org/'
+},
 {
     name: 'HTML',
-    icon: SiHtml5,
+    icon: <SiHtml5/>,
     config: {
         color: '#E34C26',
         size: '65px'
@@ -179,7 +120,7 @@ const icons = [{
 },
 {
     name: 'CSS',
-    icon: SiCss3,
+    icon: <SiCss3/>,
     config: {
         color: '#2965f1',
         size: '65px'
@@ -239,7 +180,7 @@ const icons = [{
 // },
 {
     name: 'Tailwind',
-    icon: SiTailwindcss,
+    icon: <SiTailwindcss/>,
     config: {
         color: '#61DAFB',
         size: '65px'
@@ -249,7 +190,7 @@ const icons = [{
 },
 {
     name: 'Bootstrap',
-    icon: SiBootstrap,
+    icon: <SiBootstrap/>,
     config: {
         color: '#6c5ce7',
         size: '65px'
@@ -259,7 +200,7 @@ const icons = [{
 },
 {
     name: 'Canva',
-    icon: SiCanva,
+    icon: <SiCanva/>,
     config: {
         color: '#20c4cb',
         size: '65px'
@@ -269,7 +210,7 @@ const icons = [{
 },
 {
     name: 'Node.js',
-    icon: SiNodedotjs,
+    icon: <SiNodedotjs/>,
     config: {
         color: '#68A063',
         size: '65px'
@@ -279,7 +220,7 @@ const icons = [{
 },
 {
     name: 'Npm',
-    icon: SiNpm,
+    icon: <SiNpm/>,
     config: {
         color: '#d63031',
         size: '65px'
@@ -289,7 +230,7 @@ const icons = [{
 },
 {
     name: 'MySql',
-    icon: SiMysql,
+    icon: <SiMysql/>,
     config: {
         color: '#61DAFB',
         size: '65px'
@@ -300,7 +241,7 @@ const icons = [{
 
 {
     name: 'Mongodb',
-    icon: SiMongodb,
+    icon: <SiMongodb/>,
     config: {
         color: '#4DB33D',
         size: '65px'
@@ -320,7 +261,7 @@ const icons = [{
 // },
 {
     name: 'Git',
-    icon: SiGit,
+    icon: <SiGit/>,
     config: {
         color: '#F1502F',
         size: '65px'
@@ -330,7 +271,7 @@ const icons = [{
 },
 {
     name: 'Ubuntu',
-    icon: SiUbuntu,
+    icon: <SiUbuntu/>,
     config: {
         color: '#E95420',
         size: '65px'
@@ -340,7 +281,7 @@ const icons = [{
 },
 {
     name: 'Github',
-    icon: SiGithub,
+    icon: <SiGithub/>,
     config: {
         color: '#ffffff',
         size: '65px'
@@ -350,7 +291,7 @@ const icons = [{
 },
 {
     name: 'Heroku',
-    icon: SiHeroku,
+    icon: <SiHeroku/>,
     config: {
         color: '#6762A6',
         size: '65px'
@@ -360,7 +301,7 @@ const icons = [{
 },
 {
     name: 'Netlify',
-    icon: SiNetlify,
+    icon: <SiNetlify/>,
     config: {
         color: '#61DAFB',
         size: '65px'
@@ -370,7 +311,7 @@ const icons = [{
 },
 {
     name: 'Vercel',
-    icon: SiVercel,
+    icon: <SiVercel/>,
     config: {
         color: '#ffffff',
         size: '65px'
@@ -390,7 +331,7 @@ const icons = [{
 // },
 {
     name: 'Firebase',
-    icon: SiFirebase,
+    icon: <SiFirebase/>,
     config: {
         color: '#FFA611',
         size: '65px'
@@ -488,16 +429,7 @@ const icons = [{
 //     description: "A peer-to-peer hypermedia protocol designed to preserve and grow humanity's knowledge by making the web upgradeable, resilient, and more open",
 //     url: 'https://ipfs.tech/'
 // },
-// {
-//     name: 'Mocha',
-//     icon: SiMocha,
-//     config: {
-//         color: '#967969',
-//         size: '65px'
-//     },
-//     description: 'Mocha is a feature-rich JavaScript test framework running on Node. js and in the browser',
-//     url: 'https://mochajs.org/'
-// },
+// 
 // {
 //     name: 'Chai.js',
 //     icon: SiChai,
@@ -520,7 +452,7 @@ const icons = [{
 // },
 {
     name: 'Markdown',
-    icon: SiMarkdown,
+    icon: <SiMarkdown/>,
     config: {
         color: '#ffffff',
         size: '65px'
@@ -550,7 +482,7 @@ const icons = [{
 // },
 {
     name: 'GitLab',
-    icon: SiGitlab,
+    icon: <SiGitlab/>,
     config: {
         color: '#fca326',
         size: '65px'
@@ -560,7 +492,7 @@ const icons = [{
 },
 {
     name: 'Github Actions',
-    icon: SiGithubactions,
+    icon: <SiGithubactions/>,
     config: {
         color: '#4183C4',
         size: '65px'
@@ -570,7 +502,7 @@ const icons = [{
 },
 {
     name: 'Bash',
-    icon: SiGnubash,
+    icon: <SiGnubash/>,
     config: {
         color: '#ffffff',
         size: '65px'
@@ -581,5 +513,28 @@ const icons = [{
 
 ]
 
+const Icon = () => {
+  return (
+    icons.map((icon, index) => (
+        <li
+          key={index}
+          className="w"
+        >
+          {/* let demo ={React.createElement(icon.icon ,{ size:'50px' })} */}
+          {/* {React.createElement(icon.icon, { size: icon.config.size, color: icon.config.color })} */}
+          {/* {React.createElement(icon.icon, { size: '20px'})} */}
+          <a
+            href={icon.url}
+            target="_blank"
+            rel="_noreferrer"
+            className="link"
+          >
+            {icon.icon }
+            {/* {icon.name} */}
+           {/* ReactDOM.render(icon.icon); */}
+          </a>
+        </li>
+  )));
+}
 
-export default icons;
+export default Icon

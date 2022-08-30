@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
 import Footer from '../components/Footer';
-import Icons from '../components/Icons';
+import icons from '../components/Icon';
 import Tech from '../components/Tech';
 const Home = () => {
   return (

@@ -1,0 +1,9 @@
+.tec{
+    /* width: 100%; */
+    /* display: inline-flex; */
+    display: flex;
+    justify-content: space-evenly;
+}
+.third{
+    padding: 16px;
+}

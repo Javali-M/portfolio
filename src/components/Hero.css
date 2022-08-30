@@ -1,9 +1,11 @@
-/* .hero{
+.hero{
     height: 100%;
     width: 100%;
+    /* margin-top: 40px; */
     position: relative;
     margin-right: 0;
-} */
+    margin-left: 0;
+}
 .hero .content{
     justify-content: space-between;
     position: absolute;
@@ -28,12 +30,11 @@
     font-family: 'Lato','sans-serif' !important;
 }
 .mask{
-    height:150vh;
+    height:100vh;
     width:100%;
     background-position: right;
     position: relative;
     display: inline-box;
-    /* float: right; */
 }
 .first{
 
@@ -42,13 +43,13 @@
     /* padding-right: 50px; */
 }
 .me{
-    /* float: right; */
+    float: right;
     background: transparent;
     /* height: 40%; */
-    /* width:40%; */
+    width:250px;
     /* position: relative; */
     /* display: flex; */
-    /* padding-left: 20px; */
+    padding-left: 40px;
     
 }
 .img{
