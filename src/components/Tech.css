@@ -1,8 +1,10 @@
 .tec{
+    margin: 16px;
     /* width: 100%; */
-    /* display: inline-flex; */
-    display: flex;
-    justify-content: space-evenly;
+    display:flex;
+    /* justify-content:; */
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 .third{
     padding: 16px;

@@ -517,24 +517,14 @@ const Icon = () => {
   return (
     icons.map((icon, index) => (
         <li
-          key={index}
-          className="w"
-        >
-          {/* let demo ={React.createElement(icon.icon ,{ size:'50px' })} */}
-          {/* {React.createElement(icon.icon, { size: icon.config.size, color: icon.config.color })} */}
-          {/* {React.createElement(icon.icon, { size: '20px'})} */}
-          <a
-            href={icon.url}
+          key={index}>
+          <a href={icon.url}
             target="_blank"
-            rel="_noreferrer"
-            className="link"
-          >
+            className="link">
             {icon.icon }
-            {/* {icon.name} */}
-           {/* ReactDOM.render(icon.icon); */}
           </a>
         </li>
   )));
 }
 
-export default Icon
+export {Icon,icons};
