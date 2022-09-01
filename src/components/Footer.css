@@ -19,3 +19,9 @@
     display: flex;
     justify-content: space-between;
 }
+@media screen and (max-width: 640px){
+    .footer{
+        grid-template-columns: 1fr;
+    }
+    
+}
