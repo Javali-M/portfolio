@@ -3,7 +3,10 @@ import './Form.css'
 
 const Form = () => {
   return (
-    <div>Form</div>
+    <div>
+    <h2>Heading</h2>
+    Form</div>
+
   )
 }
 
