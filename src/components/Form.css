@@ -1,4 +1,5 @@
 heading{
     size: 20px;
-
+    margin: auto;
+    display: flex;
 }
