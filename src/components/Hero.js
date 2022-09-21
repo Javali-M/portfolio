@@ -12,7 +12,7 @@ const Hero = () => {
         <div className="first">
           <p> Hey there! I'm</p>
           <br/>
-          <p className="name" >Javali Murari.</p>
+          <p className="name">Javali Murari.</p>
           <br />
           <br />
           <p>
