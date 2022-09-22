@@ -439,17 +439,7 @@ const icons = [{
 //     },
 //     description: 'Chai is a assertion library for node and the browser that can be delightfully paired with any javascript testing framework.',
 //     url: 'https://www.chaijs.com/'
-// },
-// {
-//     name: 'Testing Library',
-//     icon: SiTestinglibrary,
-//     config: {
-//         color: '#DC143C',
-//         size: '65px'
-//     },
-//     description: 'The Testing Library family of libraries is a very light-weight solution for testing without all the implementation details',
-//     url: 'https://testing-library.com/docs/react-testing-library/intro/'
-// },
+// }
 {
     name: 'Markdown',
     icon: <SiMarkdown/>,
@@ -460,26 +450,6 @@ const icons = [{
     description: 'Markdown is a lightweight markup language that you can use to add formatting elements to plaintext text documents.',
     url: 'https://www.markdownguide.org/getting-started/'
 },
-// {
-//     name: 'Jest',
-//     icon: SiJest,
-//     config: {
-//         color: '#DC143C',
-//         size: '65px'
-//     },
-//     description: 'Jest is a JavaScript testing framework designed to ensure correctness of any JavaScript codebase.',
-//     url: 'https://jestjs.io/'
-// },
-// {
-//     name: 'Docker',
-//     icon: SiDocker,
-//     config: {
-//         color: '#0db7ed',
-//         size: '65px'
-//     },
-//     description: 'Docker is an open platform for developing, shipping, and running applications.',
-//     url: 'https://docs.docker.com/get-started/overview/'
-// },
 {
     name: 'GitLab',
     icon: <SiGitlab/>,

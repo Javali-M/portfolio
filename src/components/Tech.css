@@ -1,6 +1,6 @@
 .tec{
     margin: 16px;
-    /* width: 100%; */
+    width: 100%;
     display:flex;
     /* justify-content:; */
     flex-wrap: wrap;
@@ -8,6 +8,7 @@
 }
 .third{
     margin: 0 60px 0 60px;
+    height: 20vh;
     
 }
 .third h2{

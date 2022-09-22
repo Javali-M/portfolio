@@ -7,16 +7,23 @@
     z-index: 10; */
 
 }
-.h2{
+.this{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    align-items: center;
+    
+}
+/* .h2{
     display: inline;
     padding-left: 10px;
     padding-top: 60px;
-}
+} */
 .img1{
-    float: left;
+    /* float: left; */
     height: 70px;
     width: 70px;
-    display: inline;
+    margin-right: 10px;
 }
 .menu{
     display: flex;

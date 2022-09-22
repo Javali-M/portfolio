@@ -8,14 +8,16 @@
 }
 .link{
     padding: 5px;
-    /* justify-content: space-between; */
+    
 }
 .footer{
-    margin-top: 16px;
+    
     padding: 16px;
     margin: 20px;
 }
 .container{
+    margin-top: 50px;
+    max-width: 1140px;
     display: flex;
     justify-content: space-between;
 }
